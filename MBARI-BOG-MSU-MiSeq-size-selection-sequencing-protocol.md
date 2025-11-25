@@ -43,7 +43,7 @@ pcr2_amplificationReactionVolume: 15
 pcr2_commercial_mm: 2.5X HotMaster Mix
 pcr2_custom_mm: # not applicable
 pcr2_dna_vol: 1
-pcr2_cond: initial denaturation:95_3;denaturation:95_0.25;annealing:60_0.5;elongation:72_1;final elongation:72_3;25
+pcr2_cond: initial denaturation:95_3;denaturation:95_0.25;annealing:60_0.5;elongation:72_1;final elongation:72_3;15
 pcr2_annealingTemp: 60
 pcr2_cycles: 15
 pcr2_analysis_software: # The program used to analyse the PCR runs  in the second step PCR
