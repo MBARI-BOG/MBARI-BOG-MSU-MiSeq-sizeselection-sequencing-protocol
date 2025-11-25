@@ -23,14 +23,7 @@ license: CC0 1.0 Universal
 maturity level: mature
 
 # FAIRe terms
-pcr_0_1: # 1
-assay_name: # ssu16sv4v5_emp
-assay_validation: # not provided
-targetTaxonomicAssay: # 16S rRNA gene sequencing targeting the V4-V5 region using primers 515F and 926R
-targetTaxonomicScope: # Prokaryotes, including Bacteria and Archaea
-target_gene: # 16S rRNA
-target_subfragment: # V4-V5
-ampliconSize: # 411
+## pcr
 pcr_primer_forward: AATGATACGGCGACCACCGAGATCT-[i5-BC(index 2)]-ACACTGACGACATGGTTCTACA
 pcr_primer_reverse: CAAGCAGAAGACGGCATACGAGAT-[i7-BC(index 1)]-TACGGTAGCAGAGACTTGGTCT
 pcr_primer_name_forward: PE1-BC-CS1
@@ -41,54 +34,36 @@ pcr_primer_vol_forward: # 1.0
 pcr_primer_vol_reverse: # 1.0
 pcr_primer_conc_forward: # 10
 pcr_primer_conc_reverse: # 10
-probeReporter: # not applicable
-probeQuencher: # not applicable
-probe_seq: # not applicable
-probe_ref: # not applicable
-probe_conc: # not applicable
-
-pcr_rep: # 1
-nucl_acid_amp: # https://doi.org/10.1111/1462-2920.13023
 
 
-pcr_analysis_software: # not provided
-pcr_method_additional: # not provided
-
+## library preparation sequencing
 barcoding_pcr_appr: two-step PCR
-pcr2_thermocycler:
+pcr2_thermocycler: # The manufacturer and model of a thermocycler used in the second step PCR
 pcr2_amplificationReactionVolume: 15
 pcr2_commercial_mm: 2.5X HotMaster Mix
-pcr2_custom_mm:
-pcr2_dna_vol:
+pcr2_custom_mm: # not applicable
+pcr2_dna_vol: 1
 pcr2_cond: initial denaturation:95_3;denaturation:95_0.25;annealing:60_0.5;elongation:72_1;final elongation:72_3;25
 pcr2_annealingTemp: 60
 pcr2_cycles: 15
-pcr2_analysis_software:
-pcr2_plate_id:
-pcr2_method_additional:
+pcr2_analysis_software: # The program used to analyse the PCR runs  in the second step PCR
+pcr2_method_additional: # Additional information on PCR or PCR-free method, that has not been shared in the given record in the second step PCR
 sequencing_location: Michigan State University RTSF Genomics core
 platform: Illumina
-instrument: MiSeq
-seq_kit:
-lib_layout:
-adapter_forward:
-adapter_reverse:
-lib_screen:
-lib_id:
-seq_run_id:
-lib_conc:
-lib_conc_unit:
-lib_conc_meth:
-phix_perc:
-mid_forward:
-mid_reverse:
-filename:
-filename2:
-checksum_method:
-checksum_filename:
-checksum_filename2:
-associatedSequences:
-seq_method_additional:
+instrument: Illumina MiSeq [OBI:0002003]
+seq_kit: # The name of sequencing kit
+lib_layout: paired end
+adapter_forward: AATGATACGGCGACCACCGAGATCT
+adapter_reverse: CAAGCAGAAGACGGCATACGAGAT
+lib_screen: The library was size selected using a Blue Pippin or Pippin HT (Sage Science, Beverly, USA)
+lib_conc: # The concentration of the prepared library pool that was loaded onto the sequencing platform for a sequencing run.
+lib_conc_unit: # ng/µL | nM | pM
+lib_conc_meth: # Qubit Fluorometer
+phix_perc: 20
+mid_forward: # Forward multiplex Identifiers (MIDs), that was used to specifically tag unique samples in a sequencing run. Sequence should be reported in uppercase letters
+mid_reverse: # Reverse multiplex Identifiers (MIDs), that was used to specifically tag unique samples in a sequencing run. Sequence should be reported in uppercase letters
+checksum_method: # The specific algorithm or technique used to compute the checksum (checksum_filename, checksum_filename2) for verifying data integrity. Examples include MD5, SHA-256, and CRC-32.
+seq_method_additional: # Additional information on library preparation and sequencing method, that has not been shared in the given record.
 
 ---
 
@@ -219,7 +194,7 @@ Average time for MSU to process samples depends on sequencing queue, but general
 
 ### Preparation
 
-not applicable
+>not applicable
 
 
 ### Secondary Amplification
@@ -302,11 +277,11 @@ not applicable
 
 #### Positive Control
 
-Please include information about any positive controls, used in every PCR run to verify success of the PCR reaction. This should include a description of the sequence(s), the concentration and volume added, and the reference sequence(s).
+>Please include information about any positive controls, used in every PCR run to verify success of the PCR reaction. This should include a description of the sequence(s), the concentration and volume added, and the reference sequence(s).
 
 #### Negative Control
 
-Please include information about any negative controls, such as PCR-grade water used as a no template control (NTC) when setting up each PCR plate.
+>Please include information about any negative controls, such as PCR-grade water used as a no template control (NTC) when setting up each PCR plate.
 
 ### Quality Control
 
@@ -315,14 +290,14 @@ Please include information about any negative controls, such as PCR-grade water 
 
 ### Basic Troubleshooting Guide
 
-- Identify known issues associated with the procedure, if any.
+> - Identify known issues associated with the procedure, if any.
 - Provide troubleshooting guidelines when available.
 
 ## REFERENCES
 
-- Insert all references cited in the document.
+> - Insert all references cited in the document.
 - Please insert full DOI address when available, e.g. http://doi.dx.org/10.1007/s11258-014-0404-1.
 
 ## APPENDIX A: DATASHEETS
 
-Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance.
+> Link templates (e.g. preformatted spreadsheets) used to record measurements and report on the quality of the data as well as any documents such as manufacturer specifications, images, etc that support this protocol. Please include a short note describing the document's relevance.
