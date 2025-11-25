@@ -9,7 +9,7 @@ broad_scale_environmental_context: marine biome [ENVO:00000447]
 local_environmental_context: upwelling [ENVO:01000005]
 environmental_medium: sea water [ENVO:00002149]
 target: 12S [NCIT:C128263]
-creator: Jacoby Baker, Kobun Truelove
+creator: Jacoby Baker, Kobun Truelove, Kathleen Pitz
 materials_required: Illumina MiSeq, PCR instrument [OBI:0000989], agarose gel electrophoresis system [OBI:0001134], Blue Pippin or Pippin HT
 skills_required: sterile technique, pipetting skills, standard molecular technique
 time_required: # minutes (integer)
