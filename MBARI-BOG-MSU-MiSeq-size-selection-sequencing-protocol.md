@@ -15,7 +15,7 @@ skills_required: sterile technique, pipetting skills, standard molecular techniq
 time_required: # minutes (integer)
 personnel_required: 1
 language: en
-issued: # YYYY-MM-DD
+issued: 2025-11-25
 audience: scientists
 publisher: Monterey Bay Aquarium Research Institute (MBARI)
 hasVersion: 1
@@ -73,18 +73,18 @@ seq_method_additional: # Additional information on library preparation and seque
 
 ### Minimum Information about an Omics Protocol (MIOP)
 
-- MIOP terms are listed in the YAML frontmatter of this page.
+>- MIOP terms are listed in the YAML frontmatter of this page.
 - See [MIOP_definition.md](https://github.com/BeBOP-OBON/0_protocol_collection_template/blob/main/MIOP_definition.md) for list and definitions.
 
 ### Making eDNA FAIR (FAIRe)
 
-- FAIRe terms are listed in the YAML frontmatter of this page.
+>- FAIRe terms are listed in the YAML frontmatter of this page.
 - See <https://fair-edna.github.io/download.html> for the FAIRe checklist and more information.
 - See <https://fair-edna.github.io/guidelines.html#missing-values> for guidelines on missing values that can be used for missing FAIRe or MIOP terms.
 
 ### Authors
 
-- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
+>- All authors known to have contributed to the preparation of this protocol, including those who filled in the template.
 - Visit https://orcid.org/ to register for an ORCID.
 - Date is the date the author first worked on the protocol.
 
@@ -96,15 +96,15 @@ seq_method_additional: # Additional information on library preparation and seque
 
 ### Related Protocols
 
-- This section contains protocols that should be known to users of this protocol.
+>- This section contains protocols that should be known to users of this protocol.
 - Include the link to each protocol.
 - Include the version number and release date (if available).
 - Internal/External: "Internal" are derivative or altered protocols, or other protocols in this workflow. "External" are protcols from manufacturers or other groups.
 
 | PROTOCOL NAME | LINK         | VERSION      | RELEASE DATE | INTERNAL/EXTERNAL |
 | ------------- | ------------ | ------------ | ------------ | ----------------- |
-| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (with Platinum SuperFi II Taq) V.3  |  [https://github.com/MBARI-BOG/MBARI-BOG-12S-superfiII-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-superfiII-metabarcoding-pcr-protocol.md](https://github.com/MBARI-BOG/MBARI-BOG-12S-superfiII-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-superfiII-metabarcoding-pcr-protocol.md) | 3.0 | yyyy-mm-dd   | Internal      |
-| Content Cell  | Content Cell | Content Cell | yyyy-mm-dd   | Content Cell      |
+| Environmental DNA (eDNA) 12S Metabarcoding PCR Protocol (with Platinum SuperFi II Taq) V.3  |  [https://github.com/MBARI-BOG/MBARI-BOG-12S-superfiII-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-superfiII-metabarcoding-pcr-protocol.md](https://github.com/MBARI-BOG/MBARI-BOG-12S-superfiII-metabarcoding-pcr-protocol/blob/main/MBARI-BOG-12S-superfiII-metabarcoding-pcr-protocol.md) | 3.0 | 2025-04-16   | Internal      |
+
 
 ### Protocol Revision Record
 
@@ -170,7 +170,7 @@ Average time for MSU to process samples depends on sequencing queue, but general
 
 ## EQUIPMENT
 
-- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
+>- Opentrons Consumables: If using Opentrons OT-2 Robot for KF Plate Prep.
 - Description: E.g., "filter".
 - Product Name and Model: Provide the official name of the product.
 - Manufacturer: Provide the name of the manufacturer of the product.
@@ -242,8 +242,8 @@ Average time for MSU to process samples depends on sequencing queue, but general
 | Reagent | Volume | Initial Concentration | final concentration|
 | ----- | ----- | ----- | ----- |
 | primary PCR product | 1 μl | N/A |N/A |
-| 2.5X HotMaster Mix | 6 μl | content |content |
-| Primer Mix | 1 μl | 6 μM |content |
+| 2.5X HotMaster Mix | 6 μl |  | |
+| Primer Mix | 1 μl | 6 μM | |
 | DI water | 7 μl | N/A |N/A |
 
 **PCR Cycling Program**: 
